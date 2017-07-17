@@ -31,14 +31,14 @@ export const signup = (user) => (dispatch) => {
 
 export const receiveCurrentUser = (currentUser) => {
   return ({
-    action: RECEIVE_CURRENT_USER,
+    type: RECEIVE_CURRENT_USER,
     currentUser
   });
 };
 
 export const receiveErrors = (errors) => {
   return ({
-    action: RECEIVE_ERRORS,
+    type: RECEIVE_ERRORS,
     errors
   });
 };
